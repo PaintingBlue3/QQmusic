@@ -1,0 +1,516 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    margin: 0;
+    height: fit-content;
+    /* max-width: 30rem; */
+}
+
+.tab {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.download {
+    height: 50px;
+}
+
+.download div {
+    height: 50px;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    color: #606060;
+    font-size: 13px;
+}
+
+.download div img {
+    position: relative;
+    float: left;
+    top: 2px;
+    left: 25px;
+    height: 30px;
+    width: 70px;
+}
+
+.download div span {
+    position: relative;
+    width: fit-content;
+    float: left;
+    left: 29px;
+}
+
+.download img {
+    position: relative;
+    float: left;
+    top: 7px;
+    left: 20px;
+    height: 40px;
+}
+
+.tab {
+    height: 45px;
+    /* max-width: 30rem; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.tab_ {
+    position: relative;
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 45;
+    font-size: 16px;
+    color: #22D59C;
+}
+
+#windowfloat {
+    /* display: none; */
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+}
+
+.tab-underline {
+    position: relative;
+    margin: 0px;
+    top: -5px;
+    display: flex;
+    justify-content: space-around;
+    height: 5px;
+}
+
+#after {
+    color: #c0c0c0;
+}
+
+#after1 {
+    background-color: white;
+}
+
+.tab-line {
+    background-color: #22D59C;
+    height: 3px;
+    width: 22px;
+    border-radius: 5px;
+    position: relative;
+    /* max-width: 150; */
+    margin: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+/* 这是推荐页 */
+
+#recom {
+    /* display: none; */
+    /* height: 100%; */
+    /* max-width: 30rem; */
+    position: relative;
+    padding-bottom: 18vw;
+    top: 100px;
+    width: 100%;
+}
+
+#search {
+    width: 100%;
+    top: 100px;
+    display: flex;
+}
+
+#search img {
+    position: relative;
+    width: 100%;
+    /* height: 80px; */
+    object-fit: cover;
+}
+
+.innerlist {
+    width: auto;
+    margin-bottom: 5px;
+    /* height: 20px; */
+    /* display: flex; */
+    /* justify-content: c; */
+}
+
+.innerlist p {
+    width: fit-content;
+    float: left;
+    font-size: 13px; 
+}
+
+#searchSpace {
+    position: relative;
+    width: 100%;
+    /* max-width: 30rem; */
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: 1px solid rgb(131, 131, 131);
+    box-shadow: none;
+    outline: none;
+}
+
+.head {
+    /* max-width: 100%; */
+    /* background-color: antiquewhite; */
+    color: #1a1a1a;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.head span {
+    position: relative;
+    float: right;
+    font-weight: 400;
+    color: #b4b4b4;
+    top: 2vw;
+    margin-right: 20px;
+    font-size: 3.5vw;
+}
+
+.head span img {
+    height: 3vw;
+}
+
+.music-list {
+    /* overflow-x: hidden; */
+    overflow-x: auto;
+    /* overflow:hidden; */
+    /* height: fit-content; */
+    padding-left: 10px;
+    display: flex;
+}
+
+.musicbox,
+.musicbox- {
+    padding: 1vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: aquamarine; */
+}
+
+.musicbox-name {
+    padding-top: 5px;
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+.musicbox img,
+.musicbox- img {
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 130px;
+    max-height: 130px;
+    height: 30vw;
+    width: 30vw;
+    /* clip:rect(0 100px 100px 0); */
+    border-radius: 8px;
+}
+
+.column {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: auto;
+    /* overflow-x: hidden; */
+    /* max-width: 30rem; */
+}
+
+.columnBox img {
+    object-fit: cover;
+    border-radius: 8px;
+    width: 65vw;
+    height: 35vw;
+    /* opacity: 0.5; */
+}
+
+.columnBox {
+    display: flex;
+    flex-direction: column;
+    color: #5a5a5a;
+    margin: 5px;
+    width: 100vw;
+    height: fit-content;
+}
+
+#searchpage {
+    display: none;
+    position: relative;
+    top: 100px;
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+}
+
+.searchFeedback {
+    position: relative;
+    top: -10px;
+    margin: 15px;
+    height: 40px;
+}
+
+.musicTitle {
+    margin: 3px;
+    font-weight: 500;
+}
+
+.musicArtist {
+    margin: 3px;
+    padding-bottom: 5px;
+    color: rgb(138, 138, 138);
+    margin-bottom: 20px;
+}
+
+#searchlan {
+    display: flex;
+}
+
+#search2 {
+    width: 85%;
+}
+
+#cancel {
+    width: 15%;
+}
+
+#searchtext {
+    top: 24px;
+    left: 40px;
+    font-size: 17px;
+    background: none;
+    outline: none;
+    border: none;
+    position: absolute;
+    width: 72%;
+}
+
+.head1 {
+    /* max-width: 30rem; */
+    padding: 10px;
+    float: left;
+    /* background-color: antiquewhite; */
+    color: #1a1a1a;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.hotnames,
+.historynames {
+    height: fit-content;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.hotsearch {
+    display: flex;
+    flex-direction: column;
+}
+
+.tags {
+    float: left;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: white;
+}
+
+
+/* 这里是rank */
+
+#rank {
+    display: none;
+    /* position: relative; */
+    top: 100px;
+    height: fit-content;
+    padding-bottom: 100px;
+    background-color: rgb(247, 247, 247);
+    /* z-index: 101; */
+}
+
+.rankbox {
+    position: relative;
+    top: 120px;
+    margin-bottom: 20px;
+    height: 30vw;
+    margin-left: 3%;
+    width: 94%;
+    display: flex;
+    border-radius: 14px;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.musiclist {
+    padding-left: 20px;
+    max-width: 66%;
+    display: flex;
+    height: 30vw;
+    width: 100%;
+    flex-direction: column;
+}
+
+.musiclist span {
+    width: 100%;
+    float: left;
+    margin: 0;
+    margin-top: 0.5vw;
+    font-size: 3vw;
+}
+
+.musiclist h2 {
+    margin: 0;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+    font-size: 4.7vw;
+}
+
+.rankcover {
+    object-fit: cover;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    height: 30vw;
+    width: 30vw;
+}
+
+.num {
+    font-weight: 700;
+}
+
+.artists {
+    color: #a5a5a5;
+    float: left;
+    margin-top: 2px;
+    font-size: 1vw;
+}
+
+#bottom {
+    width: 100%;
+    padding-top: 10vw;
+    /* top: 100px; */
+    /* float: left; */
+    /* padding: 10vw; */
+    /* bottom: -100vw; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#bottom img {
+    width: 100%;
+}
+
+.bubble {
+    position: relative;
+    top: -50px;
+    left: 9.5vw;
+    float: left;
+    display: flex;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 15px;
+    color: white;
+    width: fit-content;
+}
+
+.bubble img, .bubble2 img {
+    padding-top: 2px;
+    top: 5px;
+    height: 14px;
+    width: 14px;
+}
+
+.bubble2{
+    position: relative;
+    top: 75px;
+    right: 16px;
+    float: right;
+    display: flex;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 15px;
+    color: white;
+    width: fit-content;
+}
+.bubble3{
+    position: relative;
+    top: -4vw;
+    left: 80%;
+    float: left;
+    display: flex;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 15px;
+    color: white;
+    width: fit-content;
+}
+
+.columnTitle {
+    position: relative;
+    float: left;
+    left: 10px;
+    top: -65px;
+    display: flex;
+    font-size: 18px;
+    color: white;
+    width: fit-content;
+    /* border-radius: 10px; */
+    /* padding-right: 15px; */
+    /* padding-left: 5px; */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+.columnTitle span {
+    position: relative;
+    float: left;
+    left: 5px;
+    top: 5px;
+}
+
+.columnTitle img {
+    object-fit: cover;
+    width: 8vw;
+    height: 8vw;
+}
+#icon{
+    position: relative;
+    float: left;
+    left: -10vw;
+    top: -40vw;
+    height: 5vw;
+    width: 5vw;
+    opacity: 60%;
+    /* background-color: #22D59C; */
+}
